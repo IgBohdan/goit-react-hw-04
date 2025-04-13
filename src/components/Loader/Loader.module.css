@@ -1,0 +1,6 @@
+.loaderContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 1em 0 ;
+}

@@ -1,0 +1,41 @@
+
+  
+  .content {
+      height: 80vh;
+    overflow: hidden;
+  }
+  .modalContent{
+    min-width: 100%;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+  .modalImage {
+    display: block;
+    min-height: 100%;
+    width: 100%;
+    object-fit: contain;
+
+}
+
+
+  .modalCloseButton {
+    display: flex;
+    justify-items: center;
+    height: fit-content;
+    min-height: 0;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+  }
+  
+  .modalCloseButton:hover {
+    transition: all .3s;
+    background-color: #1d1d1d;
+  }

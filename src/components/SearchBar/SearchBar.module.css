@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    background-color: rgb(21, 21, 103);
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    top: 0;
+}
+.searchForm{
+    display: flex;
+    background: white;
+    gap: 3px;
+    width: fit-content;
+    border-radius: 4px;
+    max-width: 600px;
+}
+.searchButton{
+    padding: 8px 16px;
+    background-color: transparent;
+    border: none;
+    color: black;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.searchInput{
+    flex: 1;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: black;
+    background: white;
+    font-size: 16px;
+    outline: none;
+}

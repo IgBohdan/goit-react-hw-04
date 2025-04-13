@@ -1,0 +1,17 @@
+.loadMoreBtn {
+    margin: 1em 0;
+    width: 100%;
+    min-height: 50px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.button{
+    padding: 1em 5em;
+    background-color: rgb(21, 21, 103);
+
+}
+.button:hover {
+    background: rgb(46, 46, 133);
+}
